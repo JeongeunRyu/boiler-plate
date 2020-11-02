@@ -11,7 +11,7 @@ mongoose.connect('mongodb+srv://ryu:aa123456@boilerplate.ityvq.mongodb.net/boile
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World! 아녕')
+    res.send('Hello World!')
 })
 
 app.listen(port, () => {
